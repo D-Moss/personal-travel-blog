@@ -1,0 +1,121 @@
+/*Vegas 21*/
+.vegas21-wrapper {
+	padding: 0 30px;
+}
+
+.top-site h1 {
+	padding: 45px 0 0 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+h2 {
+	padding-top: 35px;
+	font-size: 36px;
+}
+
+p {
+	font-size: 17px;
+	line-height: 1.5;
+	padding: 0 15px;
+}
+
+.clear {
+	clear: both;
+	display: block;
+}
+
+/*ACCOMODATIONS*/
+.accomodate1 {
+	float: left;
+	width: 50%;
+}
+
+.accomodate1-text {
+	float: left;
+	width: 50%;
+	text-align: justify;
+	padding-left: 15px;
+}
+
+.accomodate1-text-small {
+	display: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.accomodate1-text {
+		display: none;
+	}
+	.accomodate1-text-small {
+		display: block;
+		padding-left: 17px;
+		float: right;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.accomodate1 {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.accomodate1-text-small {
+		margin-top: 7px;
+		width: 100%;
+	}
+}
+
+/*NIGHT TIME ACTIVITIES*/
+.summer {
+	float: left;
+	width: 25%;
+	padding-right: 10px;
+}
+
+.meal {
+	float: right;
+	width: 25%;
+	padding-left: 10px;
+}
+
+.night a {
+	text-decoration: none;
+	color: #f8e37c;
+}
+
+/*DAY TIME ACTIVITIES*/
+.daytime1 {
+	float: left;
+	width: 50%;
+}
+
+.day1-text {
+	float: left;
+	width: 50%;
+	text-align: justify;
+	padding-left: 15px;
+}
+
+.daytime2 {
+	float: right;
+	width: 50%;
+}
+
+.day2-text {
+	float: right;
+	width: 50%;
+	text-align: justify;
+	padding-right: 15px;
+	padding-top: 10px;
+}
+
+@media screen and (max-width: 865px) {
+	.day1-text {
+		width: 100%;
+		text-align: left;
+	}
+	.day2-text {
+		width: 100%;
+		text-align: left;
+	}
+}

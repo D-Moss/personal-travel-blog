@@ -116,14 +116,43 @@ body {
 	text-align: center;
 }
 
+.links a {
+	color: black;
+	font-size: 17px;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+
+.links a:hover {
+	color: black;
+	text-shadow: 2px 2px 4px #7edff8;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
 .contact {
 	padding: 10px;
 	text-align: center;
 }
 
+.contact a {
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.contact a:hover {
+	color: black;
+	text-shadow: 2px 2px 4px #7edff8;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
 /*Footer*/
 footer {
-	background-color: #beeffb;
+	background: linear-gradient(0deg, rgba(9, 9, 121, 1) 0%, rgba(9, 9, 121, 1) 10%, rgba(6, 67, 159, 1) 21%, rgba(1, 190, 241, 1) 51%, rgba(152, 229, 249, 1) 69%, rgba(239, 251, 254, 1) 85%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
 	padding: 20px;
 	margin-top: 20px;
 	text-align: center;
