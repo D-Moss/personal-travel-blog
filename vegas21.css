@@ -10,7 +10,7 @@
 }
 
 h2 {
-	padding-top: 35px;
+	padding: 35px 0;
 	font-size: 36px;
 }
 
@@ -86,27 +86,44 @@ p {
 /*DAY TIME ACTIVITIES*/
 .daytime1 {
 	float: left;
-	width: 50%;
+	width: 40%;
 }
 
 .day1-text {
 	float: left;
-	width: 50%;
+	width: 60%;
 	text-align: justify;
-	padding-left: 15px;
+	padding-left: 20px;
+}
+
+.day1-text a {
+	text-decoration: none;
+	color: #f8e37c;
+}
+
+.daytime-container2 {
+	padding-top: 17px;
 }
 
 .daytime2 {
 	float: right;
-	width: 50%;
+	width: 40%;
 }
 
 .day2-text {
 	float: right;
-	width: 50%;
+	width: 60%;
 	text-align: justify;
-	padding-right: 15px;
+	padding-right: 20px;
 	padding-top: 10px;
+}
+
+.bottom {
+	padding-top: 17px;
+}
+
+.ending p {
+	padding-top: 30px;
 }
 
 @media screen and (max-width: 865px) {
@@ -117,5 +134,22 @@ p {
 	.day2-text {
 		width: 100%;
 		text-align: left;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.daytime1 {
+		padding: 0 20px 12px 20px;
+		width: 100%;
+	}
+	.day1-text {
+		width: 100%;
+	}
+	.daytime2 {
+		padding: 0 20px 12px 20px;
+		width: 100%;
+	}
+	.day2-text {
+		100%
 	}
 }
