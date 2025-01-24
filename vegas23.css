@@ -1,76 +1,21 @@
-.top-site h1 {
+.main {
+	margin: auto;
+	padding: 20px;
+	max-width: 1300px;
+}
+
+.main h1 {
 	text-align: center;
-	padding-top: 15px;
+	padding: 12px;
 }
 
-h2 {
-	padding-top: 35px;
-	padding-left: 20px;
-	font-size: 28px;
+.row {
+	margin: 8px -16px;
 }
 
-p {
-	font-size: 17px;
-	line-height: 1.5;
-	padding: 0 15px;
-}
-
-p a {
-	text-decoration: none;
-	color: dodgerblue;
-}
-
-/*GALLERY*/
-.slideshow-container {
-	position: relative;
-}
-
-.mySlides {
-	display: none;
-}
-
-.numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-
-img {
-	vertical-align: middle;
-}
-
-.prev,
-.next {
-	padding: 16px;
-	margin-top: -50px;
-	color: white;
-	width: auto;
-	font-weight: bold;
-	font-size: 20px;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	top: 40%;
-	position: absolute;
-	cursor: pointer;
-}
-
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-}
-
-.caption-container {
-	text-align: center;
-	background-color: #222;
-	color: white;
-	padding: 2px 16px;
+.row,
+.row > .column {
+	padding: 8px;
 }
 
 .row:after {
@@ -81,56 +26,26 @@ img {
 
 .column {
 	float: left;
-	width: 12.5%;
+	width: 25%;
 }
 
-.demo {
-	opacity: 0.6;
+.content {
+	background-color: white;
+	padding: 10px;
 }
 
-.cursor {
-	cursor: pointer;
+.content p {
+	color: black;
 }
 
-.active,
-.demo:hover {
-	opacity: 1;
-}
-
-/*COLUMNS*/
-.main-row:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.main-column {
-	float: left;
-	padding: 40px 15px;
-}
-
-.left {
-	width: 50%;
-	padding-left: 25px;
-}
-
-.right {
-	width: 50%;
-	padding-left: 25px;
-}
-
-.right p {
-	text-align: justify;
-	line-height: 1.5;
-}
-
-@media screen and (max-width: 600px) {
-	.main-column {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-		padding: 40px 15px;
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
 	}
 }
 
-/*OTHER PLACES*/
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
